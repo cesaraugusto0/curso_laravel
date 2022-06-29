@@ -1,3 +1,5 @@
+/* General */
+
 * {
     font-family: 'Roboto';
 }
@@ -36,7 +38,6 @@ header {
 
 #navbar img {
     width: 40px;
-    margin-left: 50px;
 }
 
 #navbar {
@@ -126,6 +127,27 @@ header {
 .card-participants {
     font-size: 14px;
     color: #757575;
+}
+
+
+/* Event create page */
+
+#event-create-container div {
+    padding-top: 15px
+}
+
+#event-create-container .btn-primary {
+    margin-top: 15px
+}
+
+#event-create-container label {
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 12px;
 }
 
 
